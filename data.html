@@ -1,0 +1,17 @@
+< serv: message xmlns: xsi="http://www.w3.org/2001/XMLSchema-instance"> \r\ n
+    < header> \r\ n
+    < securityContext> \r\ n
+     < webExID> test_user
+    < /webExID>\r\n
+    <password>cisco!123</password> \r\ n
+    < siteName> apidemoeu
+    < /siteName>\r\n </securityContext> \r\ n
+    < /header>\r\n
+
+    <body>\r\n
+    <bodyContent\r\n xsi:type="java:com.webex.service.binding.meeting.LstsummaryMeeting">\r\n
+    <order>\r\n
+    <orderBy>STARTTIME</orderBy> \r\ n
+    < /order>\r\n </bodyContent> \r\ n
+    < /body>\r\n
+</serv: message>
